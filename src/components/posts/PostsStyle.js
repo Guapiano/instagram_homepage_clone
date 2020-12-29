@@ -88,4 +88,22 @@ export const Time = styled.p`
     color: #adadad;
     font-size: 14px;
     padding: 10px 0px 0px 35px;
+    margin-bottom: 35px;
+`;
+
+export const CommentContainer = styled.div`
+    width: 100%;
+    height: 80px;
+    display: flex;
+    padding: 35px;  
+    align-items: center; 
+    border-top: solid;
+    border-color: #dfdfdf;
+    background-color: #fff;
+    border-width: 1px;
+`;
+
+export const CommentText = styled.p`
+    font-size: 14px;
+    color: #adadad;
 `;

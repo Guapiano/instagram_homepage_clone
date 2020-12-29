@@ -1,6 +1,6 @@
 import React from 'react';
 import {AiFillHeart,AiOutlineComment} from 'react-icons/ai'
-import {PostBackground, UserContainer, UserPhoto, UserName,Photo, InteractionsContainer, Like, Comment, UserNameContainer, User, Legend, Time} from './PostsStyle'
+import {PostBackground, UserContainer, UserPhoto, UserName,Photo, InteractionsContainer, Like, Comment, UserNameContainer, User, Legend, Time, CommentContainer, CommentText} from './PostsStyle'
 
 export default function Post(){
     return(
@@ -18,6 +18,9 @@ export default function Post(){
                 <User>Ashley R.</User><Legend>Aproveitando as minhas férias neste lugar incrível.</Legend>
             </UserNameContainer>
             <Time>HÁ 1 MINUTO.</Time>
+            <CommentContainer>
+                <CommentText>Adicione um comentário...</CommentText>
+            </CommentContainer>
         </PostBackground>
     )
 }
