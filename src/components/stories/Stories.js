@@ -1,18 +1,18 @@
 import React from 'react';
-import {StoriesBackground, StoriesContents} from './StoriesStyle'
-import Users from '../users/Users'
+import {StoriesBackground, StoriesContents} from './StoriesStyle';
+import Users from '../users/Users';
 
 export default function Stories(){
     return(
         <StoriesBackground>
             <StoriesContents>
-                <Users name="Ashley R."></Users>
-                <Users name="Demian P."></Users>
+                <Users name="Adriano Z."></Users>
                 <Users name="Gabriel K."></Users>
-                <Users name="Larissa R."></Users>
-                <Users name="Ricardo T."></Users>
+                <Users name="Gabriel P."></Users>
+                <Users name="Lucas N."></Users>
+                <Users name="Lucas R."></Users>
                 <Users name="Matheus V."></Users>
-                <Users name="Daniela L."></Users>
+                <Users name="Vinícius Z."></Users>
             </StoriesContents>
         </StoriesBackground>
     )

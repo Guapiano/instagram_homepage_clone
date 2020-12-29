@@ -1,12 +1,13 @@
 import React from 'react';
+import user from '../../assets/user.png';
 import {AiFillHeart,AiOutlineComment} from 'react-icons/ai';
-import {PostBackground, UserContainer, UserPhoto, UserName,Photo, InteractionsContainer, Like, Comment, UserNameContainer, User, Legend, Time, CommentContainer, CommentText, PublishButton} from './PostsStyle'
+import {PostBackground, UserContainer, UserPhoto, UserName,Photo, InteractionsContainer, Like, Comment, UserNameContainer, User, Legend, Time, CommentContainer, CommentText, PublishButton} from './PostsStyle';
 
 export default function Post(props){
     return(
         <PostBackground>
             <UserContainer>
-                <UserPhoto/>
+                <UserPhoto src={user}/>
                 <UserName>{props.userName}</UserName>
             </UserContainer>
             <Photo/>

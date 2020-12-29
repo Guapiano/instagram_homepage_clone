@@ -19,14 +19,13 @@ export const UserContainer = styled.div`
     align-items: center; 
 `;
 
-export const UserPhoto = styled.div`
+export const UserPhoto = styled.img`
     width: 40px;
     height: 40px;
     border-width: 2px;
     border-style: solid;
     border-radius: 100px;
     border-color: #F50057;
-    background-color: #222222;
 `;
 
 export const UserName = styled.p`
@@ -39,7 +38,7 @@ export const UserName = styled.p`
 export const Photo = styled.div`
     width: 100%;
     height: 510px;
-    background-color: #222222;
+    background-image: url('https://cdn.pixabay.com/photo/2016/02/19/10/00/laptop-1209008_960_720.jpg');
 `;
 
 export const InteractionsContainer = styled.div`
@@ -73,9 +72,9 @@ export const UserNameContainer = styled.div`
 `;
 
 export const User = styled.p`
-    font-weight: bold;
-    font-size: 14px;
     color: #222222;
+    font-size: 14px;
+    font-weight: bold;
 `;
 
 export const Legend = styled.p`
@@ -99,20 +98,21 @@ export const CommentContainer = styled.div`
     border-top: solid;
     align-items: center; 
     border-width: 1px;
-    justify-content: space-between;
     border-color: #dfdfdf;
     background-color: #fff;
     border-bottom-left-radius: 5px;
+    justify-content: space-between;
     border-bottom-right-radius: 5px;
 `;
 
 export const CommentText = styled.p`
-    font-size: 14px;
     color: #adadad;
+    font-size: 14px;
 `;
 
 export const PublishButton = styled.a`
+    color: #00B0FF;
     font-size: 14px;
     font-weight: bold;
-    color: #00B0FF;
+    
 `;

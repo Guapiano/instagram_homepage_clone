@@ -6,7 +6,7 @@ export const StorieContainer = styled.div`
     flex-direction: column;
 `;
 
-export const StoriesCircle = styled.div`
+export const StoriesCircle = styled.img`
     width: 60px;
     height: 60px;
     margin-bottom: 10px;
@@ -14,7 +14,6 @@ export const StoriesCircle = styled.div`
     border-width: 2.5px;
     border-radius: 100px;
     border-color: #F50057;
-    background-color: #222222;
 `;
 
 export const UserName = styled.p`
