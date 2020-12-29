@@ -87,8 +87,8 @@ export const Legend = styled.p`
 export const Time = styled.p`
     color: #adadad;
     font-size: 14px;
+    margin-bottom: 30px;
     padding: 10px 0px 0px 35px;
-    margin-bottom: 35px;
 `;
 
 export const CommentContainer = styled.div`
@@ -96,11 +96,13 @@ export const CommentContainer = styled.div`
     height: 80px;
     display: flex;
     padding: 35px;  
-    align-items: center; 
     border-top: solid;
+    align-items: center; 
+    border-width: 1px;
     border-color: #dfdfdf;
     background-color: #fff;
-    border-width: 1px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 `;
 
 export const CommentText = styled.p`
