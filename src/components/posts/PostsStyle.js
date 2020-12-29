@@ -99,6 +99,7 @@ export const CommentContainer = styled.div`
     border-top: solid;
     align-items: center; 
     border-width: 1px;
+    justify-content: space-between;
     border-color: #dfdfdf;
     background-color: #fff;
     border-bottom-left-radius: 5px;
@@ -108,4 +109,10 @@ export const CommentContainer = styled.div`
 export const CommentText = styled.p`
     font-size: 14px;
     color: #adadad;
+`;
+
+export const PublishButton = styled.a`
+    font-size: 14px;
+    font-weight: bold;
+    color: #00B0FF;
 `;

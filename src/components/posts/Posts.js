@@ -1,13 +1,13 @@
 import React from 'react';
-import {AiFillHeart,AiOutlineComment} from 'react-icons/ai'
-import {PostBackground, UserContainer, UserPhoto, UserName,Photo, InteractionsContainer, Like, Comment, UserNameContainer, User, Legend, Time, CommentContainer, CommentText} from './PostsStyle'
+import {AiFillHeart,AiOutlineComment} from 'react-icons/ai';
+import {PostBackground, UserContainer, UserPhoto, UserName,Photo, InteractionsContainer, Like, Comment, UserNameContainer, User, Legend, Time, CommentContainer, CommentText, PublishButton} from './PostsStyle'
 
-export default function Post(){
+export default function Post(props){
     return(
         <PostBackground>
             <UserContainer>
                 <UserPhoto/>
-                <UserName>Ashley R.</UserName>
+                <UserName>{props.userName}</UserName>
             </UserContainer>
             <Photo/>
             <InteractionsContainer>
@@ -15,11 +15,12 @@ export default function Post(){
                <Comment href="#"><AiOutlineComment size={35}/></Comment>
             </InteractionsContainer>
             <UserNameContainer>
-                <User>Ashley R.</User><Legend>Aproveitando as minhas férias neste lugar incrível.</Legend>
+                <User>{props.user}</User><Legend>{props.userLegend}</Legend>
             </UserNameContainer>
-            <Time>HÁ 1 MINUTO.</Time>
+            <Time>{props.time}</Time>
             <CommentContainer>
                 <CommentText>Adicione um comentário...</CommentText>
+                <PublishButton href="#">Publicar</PublishButton>
             </CommentContainer>
         </PostBackground>
     )

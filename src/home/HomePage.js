@@ -10,9 +10,19 @@ export default function Home() {
         <Header/>
         <MainContentsContainer>
           <Stories/>
-          <Post/>
-          <Post/>
-          <Post/>
+          <Post 
+          user="Ashley R."
+          time="HÁ 1 MINUTO."
+          userName="Ashley R."
+          userLegend="Aproveitando minhas férias neste lugar maravilhoso."
+          />
+
+          <Post
+          user="Demian P."
+          time="HÁ 20 SEGUNDOS."
+          userName="Demian P."
+          userLegend="Olha que Design incrível que foi desenvolvido por mim durante minhas férias!"
+          />
         </MainContentsContainer>
       </Container>
   )
