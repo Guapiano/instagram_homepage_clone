@@ -4,11 +4,15 @@ export const StorieContainer = styled.div`
     display: flex;
     align-items: center;
     flex-direction: column;
+    @media(max-width: 380px){
+        display: none;
+    }
 `;
 
 export const StoriesCircle = styled.img`
     width: 60px;
     height: 60px;
+    cursor: pointer;
     margin-bottom: 10px;
     border-style: solid;
     border-width: 2.5px;
@@ -18,5 +22,6 @@ export const StoriesCircle = styled.img`
 
 export const UserName = styled.p`
     color: #222222;
+    cursor: pointer;
     font-size: 14px;
 `;

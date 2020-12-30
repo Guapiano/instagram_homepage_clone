@@ -12,9 +12,9 @@ export default function Home() {
           <Stories/>
           <Post 
           time="HÁ 20 MINUTOS"
-          user="Demian Pabst Guapiano"
-          userName="Demian Pabst Guapiano"
-          userLegend="Tive uma ideia brilhante neste último mês! Irei compartilhar ela com vocês em breve..."
+          user="Demian"
+          userName="Demian"
+          userLegend="Desenvolvendo um Aplicativo Web totalmente incrível."
           />
         </MainContentsContainer>
       </Container>

@@ -16,6 +16,9 @@ export const HeaderContents = styled.div`
     max-width: 960px;
     align-items: center;
     justify-content: space-between;
+    @media(max-width: 380px){
+        width: 95%;
+    }
 `;
 
 export const SearchInput = styled.input`
@@ -29,6 +32,9 @@ export const SearchInput = styled.input`
     background-color: #fafafa;
     ::placeholder{
         color: #cccccc;
+    }
+    @media(max-width: 380px){
+        width: 150px;
     }
 `;
 

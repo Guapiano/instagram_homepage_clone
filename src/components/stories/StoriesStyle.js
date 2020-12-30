@@ -9,6 +9,9 @@ export const StoriesBackground = styled.div`
     border-style: solid;
     border-color: #dfdfdf;
     background-color: #fff; 
+    @media(max-width: 380px){
+        display: none;
+    }
 `;
 
 export const StoriesContents = styled.div`
