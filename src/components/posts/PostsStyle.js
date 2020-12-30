@@ -89,6 +89,8 @@ export const UserNameContainer = styled.div`
     align-items: center;
     padding: 0px 0px 0px 40px;
     @media(max-width: 380px){
+        display: flex;
+        flex-wrap: wrap;
         margin-bottom: 10px;
         padding: 0px 0px 0px 5px;
     }
@@ -109,7 +111,6 @@ export const Legend = styled.p`
     margin-left: 5px;
     @media(max-width: 380px){
         width: 100%;
-        flex-wrap: wrap;
         margin: 0 0px 0px 10px;
     }
 `;
