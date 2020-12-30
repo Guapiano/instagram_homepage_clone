@@ -11,10 +11,10 @@ export default function Home() {
         <MainContentsContainer>
           <Stories/>
           <Post 
-          time="HÁ 20 MINUTOS"
-          user="Demian"
-          userName="Demian"
-          userLegend="Desenvolvendo um Aplicativo Web totalmente incrível."
+          time="Há 1 hora"
+          user="The_Guapiano"
+          userName="The_Guapiano"
+          userLegend="Estou tentnado clonar a interface do Instagram Web para praticar."
           />
         </MainContentsContainer>
       </Container>

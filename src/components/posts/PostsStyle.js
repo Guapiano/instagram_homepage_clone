@@ -11,7 +11,8 @@ export const PostBackground = styled.div`
     background-color: #fff; 
     @media(max-width: 380px){
         width: 95%;
-        height: 410px;
+        height: 450px;
+        min-height: 450px;
     }
 `;
 
@@ -48,7 +49,7 @@ export const UserName = styled.p`
 export const Photo = styled.div`
     width: 100%;
     height: 510px;
-    background-image: url('https://cdn.pixabay.com/photo/2016/02/19/10/00/laptop-1209008_960_720.jpg');
+    background-image: url('https://cdn.pixabay.com/photo/2017/01/22/12/07/imac-1999636_960_720.png');
     @media(max-width: 380px){
         height: 200px;
         background-size: cover;
@@ -92,7 +93,7 @@ export const UserNameContainer = styled.div`
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 10px;
-        padding: 0px 0px 0px 5px;
+        padding: 0px 0px 5px 5px;
     }
 `;
 
@@ -111,7 +112,9 @@ export const Legend = styled.p`
     margin-left: 5px;
     @media(max-width: 380px){
         width: 100%;
-        margin: 0 0px 0px 10px;
+        max-width: 305px; 
+        text-align: justify;
+        margin: 0 0px 0px 20px;
     }
 `;
 
@@ -121,6 +124,7 @@ export const Time = styled.p`
     margin-bottom: 30px;
     padding: 10px 0px 0px 40px;
     @media(max-width: 380px){
+        margin-bottom: 20px;
         padding: 0px 0px 0px 25px;
     }
 `;
@@ -129,17 +133,17 @@ export const CommentContainer = styled.div`
     width: 100%;
     height: 80px;
     display: flex;
-    padding: 0px 40px 0px 40px;
     border-top: solid;
     align-items: center; 
     border-width: 1px;
     border-color: #dfdfdf;
     background-color: #fff;
+    padding: 0px 40px 0px 40px;
     border-bottom-left-radius: 5px;
     justify-content: space-between;
     border-bottom-right-radius: 5px;
     @media(max-width: 380px){
-        display: none;
+        display: none; 
     }
 `;
 
