@@ -9,7 +9,7 @@ export default function Header(){
             <HeaderContents>
                 <SearchInput placeholder="Pesquisar"/>
                 <IconsContainer>
-                    <Button><AiFillHome size={20}/></Button>
+                    <Button><AiFillHome size={25}/></Button>
                     <Button><AiOutlineSend size={20} /></Button>
                     <Button><AiOutlineHeart size={20}/></Button>
                     <Button><AiOutlineUser size={20}/></Button>
