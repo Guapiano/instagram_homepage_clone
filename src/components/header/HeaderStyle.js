@@ -22,7 +22,7 @@ export const HeaderContents = styled.div`
 `;
 
 export const SearchInput = styled.input`
-    height: 40px;
+    height: 30px;
     width: 220px;
     padding: 10px;
     border-radius: 4px;
@@ -43,7 +43,10 @@ export const IconsContainer = styled.div`
     flex-wrap: wrap;
 `;
 
-export const Navigate = styled.a`
+export const Button = styled.button`
     color: #333333;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
     margin: 0px 0px 0px 15px;
 `;

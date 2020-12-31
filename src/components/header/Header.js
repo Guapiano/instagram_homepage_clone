@@ -1,17 +1,18 @@
 import React from 'react';
 import {AiFillHome, AiOutlineSend, AiOutlineUser,AiOutlineHeart} from 'react-icons/ai';
-import {HeaderComponent, HeaderContents, IconsContainer, SearchInput, Navigate} from './HeaderStyle';
+import {HeaderComponent, HeaderContents, IconsContainer, SearchInput, Button} from './HeaderStyle';
 
 export default function Header(){
-    return(
+
+    return(  
         <HeaderComponent>
             <HeaderContents>
                 <SearchInput placeholder="Pesquisar"/>
                 <IconsContainer>
-                    <Navigate href="#"><AiFillHome size={25} /></Navigate>
-                    <Navigate href="#"><AiOutlineSend size={25} /></Navigate>
-                    <Navigate href="#"><AiOutlineHeart size={25}/></Navigate>
-                    <Navigate href="#"><AiOutlineUser size={25}/></Navigate>
+                    <Button><AiFillHome size={20}/></Button>
+                    <Button><AiOutlineSend size={20} /></Button>
+                    <Button><AiOutlineHeart size={20}/></Button>
+                    <Button><AiOutlineUser size={20}/></Button>
                 </IconsContainer>
             </HeaderContents>
         </HeaderComponent>
