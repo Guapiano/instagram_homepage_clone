@@ -43,7 +43,7 @@ export const IconsContainer = styled.div`
     flex-wrap: wrap;
 `;
 
-export const Link = styled.a`
+export const Navigate = styled.a`
     color: #333333;
     margin: 0px 0px 0px 15px;
 `;
